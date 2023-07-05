@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+/* header, nav, catalogo */
+.navegador{
+    background-color: rgba(188, 85, 240, 0.951);
+}
+.tienda{
+    color: rgb(231, 172, 8);
+    background-color: rgba(188, 85, 240, 0.951);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;   
+}
+.navegador ul{
+    list-style: none;
+}
+.navegador ul li a{
+    color: azure;
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    ;
+}
+
+/* ---- fin etiqueta 1----*/
+
+
+/*    main y div         */
+.tarjeta{
+    width: 270px;
+    margin: 10px;
+    background-color: rgba(188, 85, 240, 0.951);
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+    border: none;
+    border-radius: 6px;
+    color: azure;
+         
+}
+.tarjeta img{
+    width: 100%;
+    border-radius: 5px;
+}
+.tarjeta ul{
+    list-style: none;
+}
+.tarjeta h3{
+    font-size: 20px;
+
+}
+.tarjeta button{
+    background-color: rgb(231, 172, 8);
+    padding: 10px 17px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.catalogo{
+    color: rgb(231, 172, 8);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+.tarjeta select{
+    background-color: rgb(231, 172, 8);
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+}
+.formulario h2{
+    color: rgb(231, 172, 8);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+.usuario h3{
+    color: rgb(231, 172, 8);
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+.mapa-pedido{
+    width: 850px;
+    height: 200px;
+    padding: 20px;
+}
+.usuario{
+    border: 5px solid #060404;
+    border-radius: 5px;
+    margin: 10px;
+    background-color:rgba(188, 85, 240, 0.951) ;
+    padding: 20px;
+}
+.usuario button{
+    background-color: rgb(231, 172, 8);
+    padding: 10px 17px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+    
+
+
+/*-----fin etiqueta 2-----*/
+
+/*folder, footer          */
+.pie-de-pagina{
+    background-color: rgba(188, 85, 240, 0.951);
+}
+.datos{
+    font-size: 20px;
+    color: azure;
+    padding: 10px 10px ;
+    display: block;
+    font-family: 'Lobster', cursive;
+}
+.mapa-folder{
+    width: 250px;
+    height: 250px;
+    border: 5px solid #040202;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+.logo-insta{
+    width: 100px;
+    height: 100px;
+    border: 5px solid #040202;
+    border-radius: 15px;
+
+}
+
+/*------fin footer----------*/
+
