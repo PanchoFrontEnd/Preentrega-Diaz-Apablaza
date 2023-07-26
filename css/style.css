@@ -3,11 +3,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-shadow: border-box;
+    box-sizing: border-box;
 }
 /* header, nav, catalogo */
 .navegador{
     background-color: rgba(188, 85, 240, 0.951);
+
 }
 .tienda{
     color: rgb(231, 172, 8);
@@ -18,6 +19,7 @@
 }
 .navegador ul{
     list-style: none;
+    display: flex;
 }
 .navegador ul li a{
     color: azure;
@@ -34,7 +36,7 @@
 
 /*    main y div         */
 .tarjeta{
-    width: 270px;
+    width: 290px;
     margin: 10px;
     background-color: rgba(188, 85, 240, 0.951);
     padding: 10px;
@@ -42,11 +44,13 @@
     border: none;
     border-radius: 6px;
     color: azure;
+    
          
 }
 .tarjeta img{
     width: 100%;
     border-radius: 5px;
+    
 }
 .tarjeta ul{
     list-style: none;
@@ -75,11 +79,13 @@
     border: none;
     margin: 5px;
 }
+
 .formulario h2{
     color: rgb(231, 172, 8);
     font-size: 50px;
     text-align: center;
     font-family: 'Lobster', cursive;
+    justify-content: center;
 }
 .usuario h3{
     color: rgb(231, 172, 8);
@@ -88,15 +94,20 @@
 }
 .mapa-pedido{
     width: 850px;
-    height: 200px;
+    height: 200px; 
     padding: 20px;
 }
 .usuario{
-    border: 5px solid #060404;
+    border: 3px solid #060404;
     border-radius: 5px;
     margin: 10px;
     background-color:rgba(188, 85, 240, 0.951) ;
     padding: 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .usuario button{
     background-color: rgb(231, 172, 8);
@@ -105,8 +116,13 @@
     border-radius: 5px;
     border: none;
 }
+.target{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   gap: 150px;
 
-    
+}
 
 
 /*-----fin etiqueta 2-----*/
@@ -114,25 +130,29 @@
 /*folder, footer          */
 .pie-de-pagina{
     background-color: rgba(188, 85, 240, 0.951);
+    display: flex;
+    flex-wrap: wrap;
 }
 .datos{
     font-size: 20px;
     color: azure;
-    padding: 10px 10px ;
+    padding: 10px 20px ;
     display: block;
     font-family: 'Lobster', cursive;
+
 }
 .mapa-folder{
     width: 250px;
-    height: 250px;
+    height: 150px;
     border: 5px solid #040202;
+    background-color: rgba(188, 85, 240, 0.951);
     border-radius: 10px;
     padding: 5px 5px;
 }
 .logo-insta{
-    width: 100px;
-    height: 100px;
-    border: 5px solid #040202;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #040202;
     border-radius: 15px;
 
 }
